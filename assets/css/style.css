@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: white;
+    margin: 0;
+    position: relative;
+    border-bottom: 1px lightgray solid;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.title{
+    width: 50%;
+    float: left;
+    background-color: white;
+    margin-top: 0;
+}
+h1{
+    background-color: rgb(64, 156, 149);
+    color: white;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0px;
+
+}
+
+nav{
+    color:  gray;
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 0;
+}
+
+h2{
+    color: rgb(64, 156, 149);
+}
+
+img {
+    width: 450px;
+    float: left;
+}
+
+aside{
+    float: left;
+}
