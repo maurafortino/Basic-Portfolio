@@ -10,7 +10,7 @@ body{
 header {
     background-color: white;
     margin: 0;
-    position: relative;
+    position: fixed;
     border-bottom: 1px lightgray solid;
     width: 100%;
     top: 0;
@@ -38,8 +38,21 @@ nav{
     color:  gray;
     float: left;
     width: 50%;
-    text-align: right;
+    text-align: center;
     margin-top: 0;
+}
+
+section{
+    background-color: white;
+    margin: 150px 50px 50px 50px;
+    padding: 10px 50px;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
 h2{
@@ -47,10 +60,12 @@ h2{
 }
 
 img {
-    width: 450px;
+    width: 25%;
     float: left;
 }
 
 aside{
     float: left;
+    width: 70%;
+    margin-left: 15px;
 }
