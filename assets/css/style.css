@@ -4,7 +4,7 @@
 body{
     margin-top: 0;
     padding-top: 0;
-    background-color: gray;
+    background-image: url('../images/texturetastic_gray.png');
 }
 
 header {
