@@ -88,6 +88,17 @@ nav span{
     padding: 0 5px;
 }
 
+/*indicates which page you are on*/
+.active{
+    text-decoration: underline;
+}
+
+.active:hover{
+    background-color: white;
+    color: rgb(64, 156, 149);
+    text-decoration: underline;
+}
+
 
 /*main content*/
 section{
