@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    margin-top: 0;
+    margin: 0;
     padding-top: 0;
     background-image: url('../images/texturetastic_gray.png');
 }
@@ -46,7 +46,7 @@ nav{
 
 section{
     background-color: white;
-    margin: 100px auto 0px auto;
+    margin: 100px auto 50px auto;
     padding: 25px 50px;
     width: 900px;
 }
@@ -97,3 +97,28 @@ figcaption {
     z-index: 1;
 }
 
+footer{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    margin: 0;
+    height: 60px;
+}
+
+.stripe {
+    background-color: rgb(64, 156, 149);
+    height: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+}
