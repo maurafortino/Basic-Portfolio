@@ -40,9 +40,15 @@ nav{
     color:  gray;
     float: left;
     width: 50%;
+    height: 77px;
     text-align: center;
-    margin-top: 0;
+    line-height: 77px;
 }
+
+nav span{
+    padding: 0 5px;
+}
+
 
 section{
     background-color: white;
@@ -121,4 +127,5 @@ footer{
     margin: 0 auto;
     color: white;
     font-size: 12px;
+    padding-bottom: 5px;
 }
