@@ -67,6 +67,13 @@ nav{
 
 }
 
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color:  rgb(64, 156, 149);
+}
+
+
 nav span{
     padding: 0 5px;
 }
@@ -93,7 +100,9 @@ h2{
     color: rgb(64, 156, 149);
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
+hr {
+    margin-bottom: 15px;
+}
 /*located on about/home page*/
 .profile-pic {
     width: 30%;
@@ -112,7 +121,7 @@ p {
     width: 300px;
     position: relative;
     float: left;
-    margin: 15px 20px 15px 0;
+    margin: 0 20px 15px 0;
 }
 
 /*porfolio pictures*/
